@@ -30,6 +30,11 @@ public double getdenom()
 	public Fraction(){
 		this.num=0;
 		this.deno=1;}
-		
 
+	public boolean equals(Fraction fr){
+		if this.getnum() == fr.getnum() && this.getdenom() == fr.getdenom(){
+			return true;
+		}
+		else return false;
+	}
 }
